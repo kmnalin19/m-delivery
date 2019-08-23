@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">M Delivery</string>
+    <string name="title_activity_delivery_detail">Map</string>
+
+
+    <string name="delivery_location">Delivery Location</string>
+
+</resources>
