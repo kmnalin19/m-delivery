@@ -26,6 +26,10 @@ class DeliveryListPresenter(val iDeliveryView : IDeliveryView,val v : View) : Ba
         deliveryListInteractor.requestDeliveryList()
     }
 
+    /**
+     *  hit after delivery list Successfully received
+     *  @param ArrayList<Delivery>
+     */
     override fun requestDeliveryListSucces(it : ArrayList<Delivery>) {
         v.delivery_list_loading_spinner.visibility = View.GONE
         v.delivery_list_recyclerView!!.layoutManager = LinearLayoutManager(iDeliveryView.requestActivity()) as RecyclerView.LayoutManager?

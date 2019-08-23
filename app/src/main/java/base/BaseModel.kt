@@ -2,7 +2,6 @@ package base
 
 import android.os.Parcel
 import android.os.Parcelable
-import java.util.*
 
 data class BaseModel(val tag : String) : Parcelable {
 
